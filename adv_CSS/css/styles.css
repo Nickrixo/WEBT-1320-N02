@@ -1,0 +1,100 @@
+body {
+    background-color: rgba(9, 40, 87, 0.815);
+}
+
+#container {
+    background-color: rgb(92, 171, 180);
+    width: 65%; 
+    margin: 20px auto;
+    border: 10px groove rgb(192, 192, 192);
+padding: 20px;
+}
+
+
+#banner {
+    width: 100%;
+}
+
+
+.Heading_Style {
+text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+
+
+
+.Content_Images {
+    width: 40%;
+
+
+}
+
+
+img {
+    display: block;
+    margin: 0 auto;
+width: 100%;
+
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;  
+    background-color: rgb(0, 123, 195);
+    padding: 5px;
+    border-radius: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: inline-block;
+    color: azure;
+    font-size: 45px;
+font-weight: bold;
+text-decoration: none;
+margin: 0 20px;
+width: 245px;
+height: 40px;
+line-height: 40px;
+}
+
+nav a:hover {
+    background-color: rgb(92, 171, 180);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+h1, h2, h3, footer {
+    text-align: center;
+}
+
+.factions {
+    display: flex;
+}
+
+.faction_image {
+    width: 40%;
+   
+}
+
+#Col_One {
+    width: 90%;
+    border: 20px solid rgb(61, 88, 125);
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(144, 184, 219);
+}
+
+#Col_Two {
+    width: 90%;
+    border: 20px solid rgb(61, 88, 125);
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(144, 184, 219);
+}
