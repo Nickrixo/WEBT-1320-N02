@@ -1,0 +1,314 @@
+/* Global Styles*/
+
+body {
+    background-image: url(../Images/H2Art.jpg);
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-position: center top;
+    background-color: #4a7194;
+    background-size: cover;
+    
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+#container {
+    background-image: linear-gradient(rgba(108, 108, 108, 0.871),rgba(0, 0, 0, 0.833));
+    color: white;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-top: 40px;
+    font-family: "Archivo Black", serif;
+    text-shadow: 0px 5px 5px black;
+}
+
+p {
+    font-family: "Archivo Black", serif;
+    margin: 30px;
+}
+
+.frontbanner{
+
+    box-shadow: 0px 40px 20px #151515;
+    border: 1px solid #ffcc00;
+   
+}
+
+footer {
+    padding: 10px;
+}
+
+hr {
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+ 
+}
+
+.col3 p {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+
+
+/* Mobile Styles */
+
+@media (min-width: 320px) {
+
+    #container{
+        border-radius: 20px;
+    }
+
+    .frontbanner {
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    nav {
+        background-color: #1d4467;
+        padding: 5px;
+        margin-top: 0px;
+        text-align: center;
+       
+      
+        background-image: linear-gradient(to right, #193953e2, #3771a4e7);
+    }
+
+    nav ul {
+    list-style-type: none;
+    padding: 0px;
+
+    }
+
+    nav li {
+        display: block;
+    }
+
+    nav li a {
+        font-family:'kanit', sans-serif;
+        font-weight: 500;
+        font-style: italic;
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        background-color: #ffcc00;
+        color: black;
+        font-size: 24px;   
+        text-decoration: none;
+        margin-top: 5px;
+        border-radius: 0px 20px;
+        box-shadow: 5px 5px 5px #092c42;
+        
+     
+    }
+
+    nav li a:hover {
+        background-color: #377ed0d3;
+
+        
+    }
+
+.content_images {
+    width: 25%;
+}
+
+iframe {
+    margin-top: 20px;
+    border-radius: 45px 0px;
+    width: 50%;
+}
+
+.flag {
+    width: 85%;
+    border-radius: 0px 100px;
+}
+
+.salute {
+    border-radius: 70px 0px;
+    padding: 20px;
+}
+
+.frontbanner{
+    width: 99%;
+
+}
+
+.col3 img {
+    width: 90%;
+
+}
+
+.community_images {
+    width: 90%;
+    border-radius: 70px 0px;
+    padding: 20px;
+}
+
+
+
+}
+
+/* Tablet Styles */
+
+@media (min-width: 768px) {
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        width: 175px;
+        height: 50px;
+        line-height: 50px;
+        margin: 5px;
+       
+
+    }
+    .multi_col {
+        display: block;
+        
+        
+    }
+
+    .col {
+        width: 100%;
+        transition: all 0.3s ease-in-out;
+       
+        
+    }
+
+
+    .col:hover {
+        box-shadow: 0px 12px 20px #151515;
+        transform: translateY(-5px);
+        border-radius: 0px;
+
+    }
+
+    .multi_col2 {
+        display: flex;
+        margin-top: -50px;
+    }
+
+    .col2 {
+        width: 50% auto;
+        margin: 75px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .col2:hover {
+        transform: translateY(-5px);
+        color: #14adff;
+    }
+
+    .multi_col3 {
+        display: flex;
+        
+
+    }
+
+    .col3 {
+        width: 50%;
+        padding-top: 30px;
+    }
+
+
+
+    .col3 img {
+        width: 90%;
+    }
+
+  .community_images {
+    width: 100%;
+  }
+}
+
+
+
+
+
+/* Desktop Styles */
+
+@media (min-width: 1024px) {
+    #container {
+        width: 65%;
+        margin: 20px auto;
+        
+        border-radius: 25px;
+
+    }
+
+
+
+    nav {
+        padding: 2px;
+        margin: 0;
+        border-radius: 20px 20px 0px 0px;
+        
+    }
+
+    nav li a {
+
+    
+        border-radius: 0px 15px;
+        padding: 0px;
+        transition: all 0.3s ease-in-out;
+        width: 200px;
+       
+    }
+    
+    nav li a:hover {
+        color: white;
+        box-shadow: 0px 12px 20px #151515;
+        transform: translateY(-5px);
+        border-radius: 15px 0px;
+    }
+
+
+    .multi_col {
+        display: flex;
+        
+    }
+
+    .col {
+        width: 75%;
+        border: 2px solid grey;
+        margin: 20px;
+        transition: all 0.3s ease-in-out;
+        border-radius: 0px 15px;
+        
+    }
+
+
+  .Terminid_Img {
+    margin-top: 180px;
+  }
+
+    .frontbanner{
+        width: 65%;
+        border-radius: 20px;
+
+    }
+
+   .col4 {
+    width: 80%;
+    text-align: left;
+
+   }
+
+   .videoframe {
+    width: 80%;
+   }
+   
+   .col2 {
+    width: 50%;
+   }
+}
